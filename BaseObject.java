@@ -12,7 +12,7 @@ public abstract class BaseObject {
         this.radius = radius;
         isAlive = true;
     }
-
+    
     public double getX() {
         return x;
     }
@@ -39,5 +39,25 @@ public abstract class BaseObject {
 
     public boolean isAlive() {
         return isAlive;
+    }
+
+    public void draw(){
+
+    }
+
+    public void move(){
+
+    }
+
+    public void die(){
+        isAlive = false;
+    }
+
+    public boolean intersects(BaseObject o){
+        double dx = x - o.x;
+        double dy = y - o.y;
+        double distance = Math.sqrt(dx * dx + dy * dy);
+        double distance2 = Math.max(radius, o.radius);
+        return distance <= distance2;
     }
 }
