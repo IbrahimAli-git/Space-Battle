@@ -28,7 +28,6 @@ public class Space {
         return ufos;
     }
 
-
     public Spaceship getShip() {
         return ship;
     }
