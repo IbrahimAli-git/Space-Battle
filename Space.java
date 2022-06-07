@@ -1,6 +1,8 @@
 package com.codegym.task.task25.task2515;
 
 import java.util.*;
+import java.io.*;
+import java.math.*;
 
 public class Space {
     private int width;
