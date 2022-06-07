@@ -1,5 +1,6 @@
 package com.codegym.task.task25.task2515;
 
+// Canvas class
 
 public class Canvas {
     private int width;
