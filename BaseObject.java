@@ -80,7 +80,7 @@ public abstract class BaseObject {
     }
 
     /**
-     * Check whether the passed object (o) and the object (this) intersect.
+     * Check whether the passed object (o) and the object (this) intersect..
      */
     public boolean intersects(BaseObject o) {
         double dx = x - o.x;
