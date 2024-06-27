@@ -13,7 +13,7 @@ A space battle simulation game created on codegym.cc For more information go to 
 1. Clone the project
 2. Open the project in VS Code or Intellij idea
 3. Ensure Java is installed (any version is compatible)
-4. Run main
+4. Run Space.java
 
 ## Collaborators  
 Ibrahim Ali - ibrahimali139@hotmail.com  
